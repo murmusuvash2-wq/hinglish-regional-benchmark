@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "category": "simple_understanding",
+    "prompt": "Yeh sentence samjhao: 'Kal raat se bijli nahi aa rahi hai, generator se kaam chalana pad raha hai.'",
+    "expected_keywords": ["electricity", "bijli", "power cut", "generator"]
+  },
+  {
+    "id": 2,
+    "category": "intent",
+    "prompt": "User: 'Bhai thoda paisa udhaar de sakta hai kya? Emergency aa gayi hai.' Intent kya hai?",
+    "expected": "asking for money loan / financial help"
+  },
+  {
+    "id": 3,
+    "category": "sentiment",
+    "prompt": "'Yaar exam mein itna bura perform kiya ki ab ghar jaane ka mann nahi kar raha.' Sentiment?",
+    "expected": "Negative"
+  },
+  {
+    "id": 4,
+    "category": "reasoning",
+    "prompt": "Agar main 10 baje nikalta hoon aur traffic mein 45 minute lagte hain, to main approximately kitne baje pahunchunga?",
+    "expected": "10:45"
+  },
+  {
+    "id": 5,
+    "category": "instruction",
+    "prompt": "Sirf yeh 2 cheezein likho: 1) Aaj ka din 2) Ek motivational line Hinglish mein",
+    "expected": "follows both instructions"
+  }
+]

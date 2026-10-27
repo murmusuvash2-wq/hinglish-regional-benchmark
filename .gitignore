@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.run.json
+.env
+.venv/
+venv/
+
+# Kaggle
+kaggle_benchmarks_reference.md
+example_task.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
